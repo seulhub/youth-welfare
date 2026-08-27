@@ -1429,7 +1429,9 @@ footer .copy {
 
     font-size: 1.6rem;
     font-weight: bold;
-    line-height: 0.9rem;
+    line-height: 0.7rem;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 
     /* background-color: red; */
   }
@@ -1582,6 +1584,10 @@ footer .copy {
     padding: 22px;
   }
 
+  .info-row .num {
+    width: auto;
+  }
+
   /* 후원하기 버튼 */
   .con04-action {
     flex-direction: column;
@@ -1590,6 +1596,12 @@ footer .copy {
     transform: scale(0.95);
     opacity: 0.8;
     transition: none;
+  }
+
+  /* 모바일 spacer-inner  */
+  /* footer 바로 위 카드 3개 */
+  .spacer-inner {
+    flex-direction: column;
   }
 
   /* footer */
