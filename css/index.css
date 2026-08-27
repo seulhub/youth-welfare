@@ -485,8 +485,15 @@ video {
 }
 .con02-left .left-p {
   font-weight: bold;
-  margin: 4rem 3rem 2rem 0px;
+  line-height: 1.5rem;
+
+  margin: 4rem 3rem 2.5rem 0px;
 }
+
+.con02-left .left-p span {
+  display: block;
+}
+
 .con02-left a {
   display: block;
   color: #fff;
@@ -1481,7 +1488,7 @@ footer .copy {
 
   .con02-left .left-p {
     width: 100%;
-    margin: 0 auto 28px;
+    margin: 0 auto 34px;
     line-height: 1.7;
   }
 
